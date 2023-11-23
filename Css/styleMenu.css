@@ -1,0 +1,160 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+.header {
+    background-color: #3a86ff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100vw; 
+    box-sizing: border-box; 
+    margin: 0; 
+}
+
+.header img {
+    width: 120px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.header h1 {
+    margin: 5px;
+    font-size: 3em; 
+}
+
+.menu {
+    background-color: #4CAF50;
+    overflow: hidden;
+    width: 100vw; 
+    box-sizing: border-box; 
+    margin: 0; 
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #45a049;
+}
+
+
+.menu {
+    background-color: #4CAF50;
+    overflow: hidden;
+    width: 100vw; 
+    margin-left: calc((100% - 100vw) / 2);
+    margin-right: calc((100% - 100vw) / 2); 
+    margin-bottom: 20px; 
+}
+
+.home-section {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.home-section .creative-content {
+    background-color: #ffcc00;
+    padding: 50px; 
+    border-radius: 10px;
+    text-align: center;
+    width: 50vw; 
+    margin: 0 auto;
+
+        animation: fadeIn 1s ease-in-out;
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+.home-section h2 {
+    color: #333;
+    font-size: 3em;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 20px; 
+}
+
+.home-section p {
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.home-section button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.home-section button:hover {
+    background-color: #45a049;
+}
+
+.produto-section {
+    background-color: #3498db; /* Cor de fundo azul para destacar */
+    padding: 40px;
+    text-align: center;
+}
+
+.produto-section h2 {
+    color: white; /* Texto em branco para melhor legibilidade */
+    font-size: 2.5em;
+}
+
+.produto-card {
+    margin-top: 20px;
+}
+
+.produto-card img {
+    width: 50%; /* Reduzi o tamanho para 80% do contêiner */
+    max-width: 100%; /* Garante que a imagem não ultrapasse seu tamanho original */
+    border-radius: 10px; /* Adiciona borda arredondada à imagem */
+}
+
+.produto-card p {
+    color: white;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
